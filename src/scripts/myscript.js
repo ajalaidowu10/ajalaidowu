@@ -1,4 +1,4 @@
-export default setYear = () => {
+export default function setYear(){
 	addEventListener('load', () => {
 		const date = new Date();
 		const getYear = document.createTextNode(date.getFullYear());
